@@ -1,0 +1,35 @@
+#heading {
+	text-align: center;
+	color: orange;
+}
+
+.firstrow {
+	height: 550px;
+	position: relative;
+}
+
+.col {
+	background-color: blue;
+	width: 70px;
+	margin: 0 auto;
+	height: 0px;
+	position: absolute !important;
+	bottom: 40px;
+	left: 40%;
+	border: 2px solid orange;
+}
+
+.form-control {
+	position: absolute !important;
+	bottom: 0
+}
+
+.col-md-12 {
+	position: absolute !important;
+	bottom: 0;
+}
+
+.btn-row {
+	margin-top: 20px; 
+	text-align: center;
+}

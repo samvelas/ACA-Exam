@@ -1,0 +1,13 @@
+#opt {
+	height: 34px;
+	border-radius: 4px;
+	width: 100%;
+}
+
+#answer {
+	margin-left: -60px;
+}
+
+#eq {
+	padding-top: 10%;
+}

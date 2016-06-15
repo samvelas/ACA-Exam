@@ -1,0 +1,27 @@
+#heading {
+	text-align: center;
+	color: #f0ad4e;
+}
+
+.form-control {
+	margin: 20px;
+}
+
+#start_day, #start_month {
+	margin: 20px;
+	height: 34px;
+	border-radius: 5px;
+	width: 100%;
+}
+
+#start_day {
+	text-align: center;
+}
+
+.btn-row {
+	text-align: center;
+}
+
+.btn-lg {
+	margin-left: 30px;
+}

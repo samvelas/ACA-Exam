@@ -1,0 +1,351 @@
+@font-face {
+  font-family: "Awesome";
+  src: url(font-awesome-4.6.2/fonts/fontawesome-webfont.ttf);
+}
+
+@font-face {
+  font-family: "logoFont";
+  src: url(font-awesome-4.6.2/fonts/DancingScript-Regular.ttf);
+}
+
+
+@font-face{
+	font-family:"FontAwesome";
+	src:url('font-awesome-4.6.2/fonts/SourceSansPro-Regular.ttf');
+	font-weight:normal;
+	font-style:normal
+}
+
+body {
+	overflow-x: hidden;
+}
+
+h3 {
+	margin: 0;
+}
+
+h4 {
+	text-align: center;
+}
+
+
+
+.headerContainer {
+	background-color: rgb(24,188,156); 
+	padding-top: 30px;
+	height: 750px;
+	width: 100%;
+	color: white;
+}
+
+.headerHeads {
+	transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+	font-family: FontAwesome;
+	padding-top: 7px ;
+	padding-bottom: 7px ;
+	top: 0;
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+	background-color: black !important;
+}
+
+.navba {
+	color: white;
+	line-height: 50px;
+	font-size: 15px;
+}
+
+.navba:hover, .navba:visited, .navba:active {
+	text-decoration: none;
+	color: white;
+}
+
+.logo {
+	color: white !important;
+}
+
+.logo:hover, .logo:visited {
+	color: white;
+}
+
+.hLogo {
+	 margin-top: 10px;
+	 font-size: 25px;
+	 transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+
+.headerContainer, .navba {
+	font-size: 15px;
+}
+
+.headerContainer, .headerHeads {
+	background-image: Url('source/header.jpg');
+}
+
+.headerContainer:hover .headerHeads {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+
+.headerContainer:hover .hLogo {
+	font-size: 35px;
+	transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+
+.mainImageContainer {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.introHeader {
+	text-transform: uppercase;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 75px;
+    margin-bottom: 50px;
+}
+
+.introText {
+	color: white;
+    font-size: 30px;
+}
+
+.headerHR {
+	margin: 0;
+	width: 200px;
+	height: 5px;
+	color: white;
+	background-color: white;
+	border: none;
+	display: inline-block;
+}
+
+.starGyph {
+	display: inline-block; 
+	font-size: 30px; 
+	color: white; 
+	position: relative;
+	top: 0.4em;
+}
+
+.mainCaptions {
+	font-family: FontAwesome;
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+}
+
+.but {
+	color: #ffffff;
+    background-color: rgb(24,188,156);
+    border-color: rgb(24,188,156);
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 15px 30px;
+	margin-top: 30px;
+}
+
+
+.Ser {
+	text-align: center;
+	font-size: 40px;
+    margin-bottom: 15px;
+}
+
+
+.portfolioContainer {
+	margin-top: 150px;
+	background-color: white;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+
+.portfolioImageContainer {
+	background-color: white;
+	margin-top: 50px;
+}
+
+.portfolioImage {
+	position: relative;
+	width: 100%;
+	height: 250px;
+	margin-bottom: 15px;
+}
+
+.hovered {
+	text-align: center;
+	background-color: rgb(24,188,156);
+	position: absolute;
+	width: 92.3%;
+	height: 250px;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	margin-top: 50px;
+	margin-left: 15px;
+	padding-right: 0;
+}
+
+.hovered:hover {
+	opacity: 0.9;
+	transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+
+.glyphicon-zoom-in {
+	color: white;
+	margin-top: 30%;
+	font-size: 50px;
+}
+
+.portfolioImage:hover {
+	
+	opacity: 0.5;
+}
+
+
+.aboutContainer {
+	padding-top: 100px;
+	font-family: FontAwesome;
+	padding-bottom: 100px;
+	background-color: rgb(24,188,156);
+}
+
+.padAbout {
+	padding-right: 70px;
+}
+
+.aboutText {
+	font-size: 22px;
+	color: white
+}
+
+.btnDownload {
+	background-color: rgb(24,188,156);
+	border-color: white;
+	transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+	color: black
+}
+
+.btnDownload:hover {
+	background-color: white! important;
+	transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+
+.socialButton {
+	height: 40px;
+	width: 40px;
+}
+
+.socialButton:hover {
+	-webkit-filter: grayscale50%);
+}
+
+.smth {
+	margin-top: 50px;
+	color: gray;
+	text-align: center;
+	font-family: FontAwesome;
+	font-style: oblique;
+}
+
+
+.contactContainer {
+	padding-top: 120px;
+	padding-bottom: 100px;
+	background-color: white;
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+}
+
+.contactInput1 {
+	width: 100%;
+	color: #2c3e50;
+	border: none;
+	font-size: 20px;
+	box-shadow: none !important;
+}
+
+.contactInput1:focus {
+	outline: none;
+	box-shadow: none !important;
+}
+
+.noMargin {
+	margin-bottom: 1px;
+}
+
+.labelForm {
+	color: rgb(24,188,156);
+	opacity: 0;
+}
+
+.nameInput:hover .forName{
+	opacity: 12 !important;
+}
+
+.mailInput:hover .forMail{
+	opacity: 12 !important;
+}
+
+.phoneInput:hover .forPhone{
+	opacity: 12 !important;
+}
+
+.messageInput:hover .forMessage{
+	opacity: 12 !important;
+}
+
+.formContainer {
+	margin-top: 50px;
+}
+
+.leftColumn {
+	font-size: 15px !important;
+	height: 70px !important;
+	font-family: FontAwesome !important;
+}
+
+.areaText {
+	font-family: FontAwesome;
+}
+
+.footerContainer {
+	margin-top: 200px;
+	padding-top: 50px;
+}
+
+.foot {
+	background-color: rgb(44,62,80);
+}
+
+.footerLeft {
+	text-align: center;
+	color: white;
+}
+
+.lowest {
+	padding-top: 20px;
+	height: 70px;
+	padding-bottom: 20px;
+	background-color: rgb(35,49,64);
+}
