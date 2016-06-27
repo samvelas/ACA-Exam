@@ -1,9 +1,9 @@
-/*body {*/
-    /*padding-top: 50px;*/
-    /*background-image: url("cover.jpg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-/*}*/
+body {
+    padding-top: 50px;
+    background-image: url("cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .form-control {
     display: inline-block !important;
